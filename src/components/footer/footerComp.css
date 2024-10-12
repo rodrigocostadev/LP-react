@@ -1,0 +1,38 @@
+.FOOTER{
+    background-color: rgb(26, 23, 36);
+    height: 40vh;
+    color: white;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.FOOTER > div{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+}
+.FOOTER > div > p{
+    width: 250px;
+    /* background-color: red; */
+}
+.FOOTER > div > span{
+    color: rgb(124, 123, 128);
+}
+h3{
+    /* color: rgb(204, 198, 36); */
+    font-family: serif;
+    font-size: 30px;
+}
+ul{
+    /* text-decoration: none; */
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.first-li{
+    color: rgb(204, 198, 36);
+    font-size: 20px;
+    font-weight: 600;
+}
+li{
+    margin-top: 15px;
+}
