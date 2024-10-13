@@ -11,8 +11,14 @@
         font-size: 15px;
     }
 }
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:550px) {
+    article{
+        width: 100%;
+        transform: translateX(0%);
+    }
     h1{
         font-size: 35px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
