@@ -1,6 +1,7 @@
 import React from "react";
 // import img from "../../assets/ana-frantz-y1TqsDClhKM-unsplash.jpg"
 import "./mainComp.css"
+import "../main/media.css"
 // import Header from "../header/header";
 import HeaderComp from "../header/headerComp";
 

@@ -5,17 +5,25 @@
     display: grid;
     grid-row: 1fr 1fr 1fr;
     padding-bottom: 100px;
+    /* position: relative; */
     /* margin: 0; */
     /* padding: 0; */
 }
 section{
-    margin-top: 100px;
+    margin-top: 50px;
     color: white;
     display: flex;
     align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     gap: 50px;
+}
+/* .SECTION > section > div {
+    background-color: red;
+} */
+img{
+    width: 350px;
+    height: 450px;
 }
 .number{
     font-size: 60px;

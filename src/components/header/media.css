@@ -1,0 +1,5 @@
+@media screen and (max-width:600px){
+    header > div > p {
+        font-size: 10px;
+    }
+}

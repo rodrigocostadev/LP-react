@@ -1,0 +1,24 @@
+@media  screen and (max-width:800px) {
+    img{
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media  screen and (max-width:700px) {
+    .SECTION{
+        background: linear-gradient(to bottom, rgba(0,0,0,0.98)12%, rgb(26, 23, 36)50%);
+        height: 400vh;
+        /* display: flex; */
+        /* display: grid;
+        grid-row: 1fr 1fr 1fr; */
+        padding-bottom: 100px;
+    }
+
+    section{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}

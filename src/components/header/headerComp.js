@@ -1,6 +1,7 @@
 import React from "react";
 // import { HeaderStyle } from "../styled Components/styles";
 import "./headerComp.css"
+import "../header/media.css"
 
 export default function HeaderComp (){
     return(

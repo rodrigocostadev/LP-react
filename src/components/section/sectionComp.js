@@ -1,5 +1,7 @@
 import React from "react";
 import "./sectionComp.css"
+import "../section/media.css"
+// import "../sectionComp/media.css"
 import img1 from "../../assets/ryan-dam-fdcEfjofIr0-unsplash.jpg"
 import img2 from "../../assets/arnaud-schildknecht-46ca2KWLauM-unsplash.jpg"
 import img3 from "../../assets/alan-labisch-zS5v_pTZbCQ-unsplash.jpg"
@@ -7,7 +9,8 @@ import img3 from "../../assets/alan-labisch-zS5v_pTZbCQ-unsplash.jpg"
 const Img1Comp = ({src, alt}) => {
     return(
         <div>
-            <img src={src} alt={alt} style={{width: 400, height: 300}} ></img>
+            <img src={src} alt={alt} style={{width: 300, height: 200}} ></img>
+            {/* <img src={src} alt={alt} ></img> */}
         </div>
     )
 }
@@ -15,7 +18,8 @@ const Img1Comp = ({src, alt}) => {
 const Img2Comp = ({src, alt}) => {
     return(
         <div>
-            <img src={src} alt={alt} style={{width: 400, height: 500}} ></img>
+            {/* <img src={src} alt={alt} style={{width: 400, height: 500}} ></img> */}
+            <img src={src} alt={alt} ></img>
         </div>
     )
 }
@@ -23,7 +27,8 @@ const Img2Comp = ({src, alt}) => {
 const Img3Comp = ({src, alt}) => {
     return(
         <div>
-            <img src={src} alt={alt} style={{width: 400, height: 500}} ></img>
+            {/* <img src={src} alt={alt} style={{width: 400, height: 500}} ></img> */}
+            <img src={src} alt={alt} ></img>
         </div>
     )
 }

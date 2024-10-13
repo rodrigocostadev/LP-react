@@ -1,5 +1,6 @@
 import React from "react";
 import './footerComp.css'
+import "../footer/media.css"
 
 export default function FooterComp (){
     return(
